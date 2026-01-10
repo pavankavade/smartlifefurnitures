@@ -30,11 +30,10 @@ export default function Footer() {
                     <div>
                         <h3 className="text-white font-[family-name:var(--font-playfair)] text-lg mb-6 tracking-wide">Collections</h3>
                         <ul className="space-y-3 text-sm">
-                            <li><Link href="/products" className="hover:text-amber-500 transition-colors">Kitchen & Dining</Link></li>
-                            <li><a href="#" className="hover:text-amber-500 transition-colors">Living Room</a></li>
-                            <li><a href="#" className="hover:text-amber-500 transition-colors">Bedroom Sanctuary</a></li>
-                            <li><a href="#" className="hover:text-amber-500 transition-colors">Home Office</a></li>
-                            <li><a href="#" className="hover:text-amber-500 transition-colors">New Arrivals</a></li>
+                            <li><Link href="/products" className="hover:text-amber-500 transition-colors">All Projects</Link></li>
+                            <li><Link href="/products" className="hover:text-amber-500 transition-colors">Kitchen Trolleys</Link></li>
+                            <li><Link href="/products" className="hover:text-amber-500 transition-colors">Railings</Link></li>
+                            <li><Link href="/products" className="hover:text-amber-500 transition-colors">Custom Storage</Link></li>
                         </ul>
                     </div>
 

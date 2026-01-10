@@ -24,6 +24,7 @@ export default function Navbar() {
                     <div className="hidden md:flex items-center space-x-10">
                         <Link href="/" className="text-gray-600 hover:text-amber-900 font-medium transition text-sm tracking-widest uppercase">Home</Link>
                         <Link href="/services" className="text-gray-600 hover:text-amber-900 font-medium transition text-sm tracking-widest uppercase">Services</Link>
+                        <Link href="/products" className="text-gray-600 hover:text-amber-900 font-medium transition text-sm tracking-widest uppercase">Portfolio</Link>
                         <Link href="/contact" className="text-gray-600 hover:text-amber-900 font-medium transition text-sm tracking-widest uppercase">Contact</Link>
                         <Link href="/contact" className="bg-gray-900 text-white px-8 py-3 rounded-full hover:bg-amber-900 transition-all duration-300 shadow-md hover:shadow-xl transform hover:-translate-y-0.5 text-sm font-semibold tracking-wide">
                             Get a Quote
@@ -47,6 +48,7 @@ export default function Navbar() {
                 <div className="px-6 py-6 space-y-4 shadow-lg">
                     <Link href="/" className="block text-lg font-medium text-gray-900 hover:text-amber-900">Home</Link>
                     <Link href="/services" className="block text-lg font-medium text-gray-600 hover:text-amber-900">Services</Link>
+                    <Link href="/products" className="block text-lg font-medium text-gray-600 hover:text-amber-900">Portfolio</Link>
                     <Link href="/contact" className="block text-lg font-medium text-gray-600 hover:text-amber-900">Contact</Link>
                     <div className="pt-4">
                         <Link href="/contact" className="block w-full text-center bg-gray-900 text-white px-6 py-3 rounded-full hover:bg-amber-900 transition shadow-lg">
