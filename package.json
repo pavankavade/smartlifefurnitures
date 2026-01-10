@@ -1,0 +1,11 @@
+{
+    "name": "smartlifefurnitures",
+    "version": "1.0.0",
+    "description": "Smartlife Furnitures Website",
+    "scripts": {
+        "build": "mkdir -p dist && cp *.html dist/ && cp styles.css dist/"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
