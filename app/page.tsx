@@ -137,8 +137,8 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="relative h-[400px] overflow-hidden rounded-xl bg-gray-100 mb-6">
                 <img
-                  src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="Custom Kitchen Trolley Project"
+                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Modern Granite Kitchen Island"
                   className="w-full h-full object-cover transform group-hover:scale-110 transition duration-700 ease-in-out"
                 />
                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors"></div>
@@ -153,7 +153,7 @@ export default function Home() {
                   The Granite Island
                 </h3>
                 <p className="text-gray-500 text-sm mb-3 font-light tracking-wide">
-                  Custom-built trolley with granite top and oak finish.
+                  Custom-built trolley system with jet black granite top.
                 </p>
                 <Link href="/contact" className="text-amber-900 hover:text-amber-700 font-medium text-sm uppercase tracking-wider border-b border-amber-900 pb-1">
                   Inquire About Similar
@@ -165,8 +165,8 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="relative h-[400px] overflow-hidden rounded-xl bg-gray-100 mb-6">
                 <img
-                  src="https://images.unsplash.com/photo-1522050212171-61b01dd24579?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="Glass Railing Project"
+                  src="https://images.unsplash.com/photo-1621293954908-907159247fc8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Modern Balcony Railing"
                   className="w-full h-full object-cover transform group-hover:scale-110 transition duration-700 ease-in-out"
                 />
                 <div className="absolute top-4 left-4">
@@ -177,10 +177,10 @@ export default function Home() {
               </div>
               <div className="text-center">
                 <h3 className="text-2xl font-[family-name:var(--font-playfair)] text-gray-900 mb-2">
-                  Modern Staircase Railing
+                  Modern Balcony Railing
                 </h3>
                 <p className="text-gray-500 text-sm mb-3 font-light tracking-wide">
-                  Frameless glass installation with stainless steel fittings.
+                  Toughened glass with stainless steel 304 fittings.
                 </p>
                 <Link href="/contact" className="text-amber-900 hover:text-amber-700 font-medium text-sm uppercase tracking-wider border-b border-amber-900 pb-1">
                   Get a Quote
@@ -192,8 +192,8 @@ export default function Home() {
             <div className="group cursor-pointer">
               <div className="relative h-[400px] overflow-hidden rounded-xl bg-gray-100 mb-6">
                 <img
-                  src="https://images.unsplash.com/photo-1588854337222-688db60d2b69?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="Industrial Storage Solution"
+                  src="https://images.unsplash.com/photo-1596206030588-e215f76f7d98?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Industrial Utility Cart"
                   className="w-full h-full object-cover transform group-hover:scale-110 transition duration-700 ease-in-out"
                 />
                 <div className="absolute top-4 left-4">
@@ -207,7 +207,7 @@ export default function Home() {
                   Utility Cart
                 </h3>
                 <p className="text-gray-500 text-sm mb-3 font-light tracking-wide">
-                  Heavy-duty steel cart designed for a commercial kitchen.
+                  Heavy-duty steel cart designed for commercial use.
                 </p>
                 <Link href="/contact" className="text-amber-900 hover:text-amber-700 font-medium text-sm uppercase tracking-wider border-b border-amber-900 pb-1">
                   Inquire Now

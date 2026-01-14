@@ -35,8 +35,8 @@ export default function Collections() {
                     <div className="group cursor-pointer">
                         <div className="relative h-[450px] overflow-hidden rounded-xl bg-gray-100 mb-6 shadow-sm group-hover:shadow-xl transition-all duration-500">
                             <img
-                                src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                alt="Granite Top Kitchen Trolley"
+                                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                alt="Modern Granite Kitchen Island"
                                 className="w-full h-full object-cover transform group-hover:scale-105 transition duration-700 ease-in-out"
                             />
                             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
@@ -83,8 +83,8 @@ export default function Collections() {
                     <div className="group cursor-pointer">
                         <div className="relative h-[450px] overflow-hidden rounded-xl bg-gray-100 mb-6 shadow-sm group-hover:shadow-xl transition-all duration-500">
                             <img
-                                src="https://images.unsplash.com/photo-1522050212171-61b01dd24579?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                alt="Modern Glass Railing"
+                                src="https://images.unsplash.com/photo-1621293954908-907159247fc8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                alt="Modern Balcony Railing"
                                 className="w-full h-full object-cover transform group-hover:scale-105 transition duration-700 ease-in-out"
                             />
                             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
@@ -97,9 +97,9 @@ export default function Collections() {
                         <div className="text-center">
                             <span className="text-amber-900 text-xs font-bold tracking-[0.2em] uppercase mb-2 block">Railing</span>
                             <h3 className="text-2xl font-[family-name:var(--font-playfair)] text-gray-900 mb-2 group-hover:text-amber-900 transition-colors">
-                                Frameless Glass System
+                                Modern Balcony Railing
                             </h3>
-                            <p className="text-gray-500 text-sm font-light">Minimalist design with steel fittings</p>
+                            <p className="text-gray-500 text-sm font-light">Toughened glass with stainless steel 304 fittings</p>
                         </div>
                     </div>
 
@@ -107,8 +107,8 @@ export default function Collections() {
                     <div className="group cursor-pointer">
                         <div className="relative h-[450px] overflow-hidden rounded-xl bg-gray-100 mb-6 shadow-sm group-hover:shadow-xl transition-all duration-500">
                             <img
-                                src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                alt="Custom Organizer"
+                                src="https://images.unsplash.com/photo-1556912173-3db996e7c3ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                alt="Custom Kitchen Storage"
                                 className="w-full h-full object-cover transform group-hover:scale-105 transition duration-700 ease-in-out"
                             />
                             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
@@ -121,9 +121,9 @@ export default function Collections() {
                         <div className="text-center">
                             <span className="text-amber-900 text-xs font-bold tracking-[0.2em] uppercase mb-2 block">Storage</span>
                             <h3 className="text-2xl font-[family-name:var(--font-playfair)] text-gray-900 mb-2 group-hover:text-amber-900 transition-colors">
-                                Minimalist Organizer
+                                Modular Kitchen Storage
                             </h3>
-                            <p className="text-gray-500 text-sm font-light">White ash finish with custom compartments</p>
+                            <p className="text-gray-500 text-sm font-light">Stainless steel baskets for customized utility</p>
                         </div>
                     </div>
 

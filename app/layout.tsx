@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair' });
 
 export const metadata: Metadata = {
-  title: "Smartlife Luxury - Modern Living",
+  title: "Smartlife Furnitures - Modern Living",
   description: "Premium kitchen trolleys and modern furniture.",
 };
 

@@ -42,14 +42,14 @@ export default function ServicesPage() {
                         <div className="absolute -left-10 -top-10 w-40 h-40 bg-amber-100 rounded-full blur-3xl opacity-50"></div>
                         <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
                             <img
-                                src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                                src="https://images.unsplash.com/photo-1556912173-3db996e7c3ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
                                 alt="Custom Kitchen Trolley"
                                 className="w-full h-auto transform hover:scale-105 transition duration-700"
                             />
                         </div>
                         <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-xl z-20 max-w-xs border border-gray-100">
-                            <p className="font-[family-name:var(--font-playfair)] text-xl text-gray-900 mb-2">"The Granite Island"</p>
-                            <p className="text-sm text-gray-500">Popular customization for Indian kitchens.</p>
+                            <p className="font-[family-name:var(--font-playfair)] text-xl text-gray-900 mb-2">"The Chef's Organizer"</p>
+                            <p className="text-sm text-gray-500">Stainless steel baskets for maximum hygiene and durability.</p>
                         </div>
                     </div>
                     <div className="order-1 lg:order-2">
@@ -122,7 +122,7 @@ export default function ServicesPage() {
                                     className="rounded-xl shadow-lg w-full h-64 object-cover"
                                 />
                                 <img
-                                    src="https://images.unsplash.com/photo-1600607686527-6fb886090705?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                                    src="https://images.unsplash.com/photo-1621293954908-907159247fc8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
                                     alt="Steel Railing"
                                     className="rounded-xl shadow-lg w-full h-64 object-cover mt-12"
                                 />
