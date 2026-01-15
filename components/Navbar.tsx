@@ -7,56 +7,101 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="fixed w-full z-50 transition-all duration-300 glass-panel border-b border-white/20" id="navbar">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between h-20 items-center">
-                    {/* Logo */}
-                    <div className="flex-shrink-0 flex items-center">
-                        <Link href="/" className="flex items-center gap-3 group">
-                            <div className="w-10 h-10 bg-amber-900 rounded-full flex items-center justify-center text-white shadow-lg group-hover:bg-amber-800 transition">
-                                <i className="fa-solid fa-couch text-lg"></i>
+        <header className="w-full relative z-50 bg-white shadow-xl">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+                <div className="flex justify-between items-center gap-4">
+
+                    {/* Left: Logo & Mobile Toggle Container */}
+                    <div className="flex items-center gap-4">
+                        {/* Mobile Menu Button - shows on small screens */}
+                        <div className="lg:hidden flex items-center">
+                            <button
+                                onClick={() => setIsOpen(!isOpen)}
+                                className="text-gray-600 focus:outline-none p-2 hover:bg-gray-100 rounded-lg transition"
+                                aria-label="Toggle menu"
+                            >
+                                <i className={`fa-solid ${isOpen ? 'fa-xmark' : 'fa-bars'} text-2xl`}></i>
+                            </button>
+                        </div>
+
+                        {/* Logo Section */}
+                        <div className="flex-shrink-0">
+                            <Link href="/" className="flex items-center gap-4 group">
+                                <div className="relative h-16 lg:h-20 w-auto group-hover:opacity-90 transition-opacity">
+                                    <img
+                                        src="/smart_kitchen_logo.png"
+                                        alt="Smart Kitchen & Furnitures Logo"
+                                        className="h-full w-auto object-contain"
+                                    />
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+
+                    {/* Center: Navigation Links (Desktop) */}
+                    <nav className="hidden lg:flex items-center justify-center gap-8">
+                        <Link href="/" className="text-gray-700 hover:text-brand-brown font-bold text-sm uppercase tracking-widest hover:border-b-2 hover:border-brand-brown transition-all duration-300 py-1">Home</Link>
+                        <Link href="/about" className="text-gray-700 hover:text-brand-brown font-bold text-sm uppercase tracking-widest hover:border-b-2 hover:border-brand-brown transition-all duration-300 py-1">About Us</Link>
+                        <Link href="/services" className="text-gray-700 hover:text-brand-brown font-bold text-sm uppercase tracking-widest hover:border-b-2 hover:border-brand-brown transition-all duration-300 py-1">Services</Link>
+                        <Link href="/contact" className="text-gray-700 hover:text-brand-brown font-bold text-sm uppercase tracking-widest hover:border-b-2 hover:border-brand-brown transition-all duration-300 py-1">Contact Us</Link>
+                    </nav>
+
+                    {/* Right: Contact Section (Desktop) */}
+                    <div className="hidden lg:flex items-center gap-4">
+                        {/* Phone */}
+                        <div className="flex items-center gap-3 group cursor-pointer">
+                            <div className="bg-brand-brown/10 w-10 h-10 flex items-center justify-center text-brand-brown rounded-full shadow-sm group-hover:bg-brand-brown group-hover:text-white transition-all duration-300">
+                                <i className="fa-solid fa-phone-volume text-sm"></i>
                             </div>
-                            <span className="font-serif text-2xl font-bold tracking-wide text-gray-900">Smart Life <span className="text-amber-900">Furnitures</span></span>
-                        </Link>
-                    </div>
+                            <div className="flex flex-col">
+                                <span className="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-0.5">Call Us</span>
+                                <a href="tel:9999999999" className="text-sm font-bold text-gray-900 group-hover:text-brand-brown transition-colors">
+                                    9999999999
+                                </a>
+                            </div>
+                        </div>
 
-                    {/* Desktop Menu */}
-                    <div className="hidden md:flex items-center space-x-10">
-                        <Link href="/" className="text-gray-600 hover:text-amber-900 font-medium transition text-sm tracking-widest uppercase">Home</Link>
-                        <Link href="/services" className="text-gray-600 hover:text-amber-900 font-medium transition text-sm tracking-widest uppercase">Services</Link>
-                        <Link href="/products" className="text-gray-600 hover:text-amber-900 font-medium transition text-sm tracking-widest uppercase">Portfolio</Link>
-                        <Link href="/contact" className="text-gray-600 hover:text-amber-900 font-medium transition text-sm tracking-widest uppercase">Contact</Link>
-                        <Link href="/contact" className="bg-gray-900 text-white px-8 py-3 rounded-full hover:bg-amber-900 transition-all duration-300 shadow-md hover:shadow-xl transform hover:-translate-y-0.5 text-sm font-semibold tracking-wide">
-                            Get a Quote
-                        </Link>
-                    </div>
-
-                    {/* Mobile Menu Button */}
-                    <div className="flex items-center md:hidden">
-                        <button
-                            onClick={() => setIsOpen(!isOpen)}
-                            className="text-gray-800 hover:text-amber-900 focus:outline-none p-2 transition"
-                        >
-                            <i className={`fa-solid ${isOpen ? 'fa-xmark' : 'fa-bars'} text-2xl`}></i>
-                        </button>
+                        {/* Email */}
+                        <div className="flex items-center gap-3 group cursor-pointer">
+                            <div className="bg-brand-brown/10 w-10 h-10 flex items-center justify-center text-brand-brown rounded-full shadow-sm group-hover:bg-brand-brown group-hover:text-white transition-all duration-300">
+                                <i className="fa-solid fa-envelope-open-text text-sm"></i>
+                            </div>
+                            <div className="flex flex-col">
+                                <span className="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-0.5">E-Mail Us</span>
+                                <a href="mailto:info@smartkitchenandfurnitures.in" className="text-sm font-bold text-gray-900 group-hover:text-brand-brown transition-colors">
+                                    info@smartkitchenandfurnitures.in
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            {/* Mobile Menu */}
-            <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-white/95 backdrop-blur-xl border-t border-gray-100 absolute w-full`} id="mobile-menu">
-                <div className="px-6 py-6 space-y-4 shadow-lg">
-                    <Link href="/" className="block text-lg font-medium text-gray-900 hover:text-amber-900">Home</Link>
-                    <Link href="/services" className="block text-lg font-medium text-gray-600 hover:text-amber-900">Services</Link>
-                    <Link href="/products" className="block text-lg font-medium text-gray-600 hover:text-amber-900">Portfolio</Link>
-                    <Link href="/contact" className="block text-lg font-medium text-gray-600 hover:text-amber-900">Contact</Link>
-                    <div className="pt-4">
-                        <Link href="/contact" className="block w-full text-center bg-gray-900 text-white px-6 py-3 rounded-full hover:bg-amber-900 transition shadow-lg">
-                            Get a Quote
-                        </Link>
+            {/* Mobile Menu Dropdown */}
+            <div className={`lg:hidden ${isOpen ? 'block' : 'hidden'} bg-white border-t border-gray-100 absolute w-full z-40 shadow-xl`}>
+                <div className="flex flex-col py-2">
+                    <Link href="/" className="text-gray-700 hover:text-brand-brown hover:bg-gray-50 px-6 py-4 border-b border-gray-100 transition-colors font-bold uppercase tracking-wider">Home</Link>
+                    <Link href="/about" className="text-gray-700 hover:text-brand-brown hover:bg-gray-50 px-6 py-4 border-b border-gray-100 transition-colors font-bold uppercase tracking-wider">About Us</Link>
+                    <Link href="/services" className="text-gray-700 hover:text-brand-brown hover:bg-gray-50 px-6 py-4 border-b border-gray-100 transition-colors font-bold uppercase tracking-wider">Services</Link>
+                    <Link href="/contact" className="text-gray-700 hover:text-brand-brown hover:bg-gray-50 px-6 py-4 border-b border-gray-100 transition-colors font-bold uppercase tracking-wider">Contact Us</Link>
+
+                    {/* Mobile Contact Info */}
+                    <div className="p-4 flex flex-col gap-4 bg-gray-50">
+                        <div className="flex items-center gap-3">
+                            <div className="bg-brand-brown/10 w-8 h-8 flex items-center justify-center text-brand-brown rounded-full">
+                                <i className="fa-solid fa-phone-volume text-sm"></i>
+                            </div>
+                            <a href="tel:9999999999" className="text-sm font-bold text-gray-900">9999999999</a>
+                        </div>
+                        <div className="flex items-center gap-3">
+                            <div className="bg-brand-brown/10 w-8 h-8 flex items-center justify-center text-brand-brown rounded-full">
+                                <i className="fa-solid fa-envelope-open-text text-sm"></i>
+                            </div>
+                            <a href="mailto:info@smartkitchenandfurnitures.in" className="text-sm font-bold text-gray-900 break-all">info@smartkitchenandfurnitures.in</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </nav>
+        </header>
     );
 }
